@@ -42,8 +42,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-![] I couldn't get the gif to download for some reason.
-     Please email me at armandobecerra987@gmail.com so I can send you the video or gif of the game working, sorry.
+![] https://cdn.glitch.me/3c7c6bb2-403a-411d-acbb-3754203dbe0e/ezgif.com-gif-maker.gif?v=1648789327852
      
 ![](gif2-link-here)
 ![](gif3-link-here)
@@ -84,7 +83,7 @@ When I added the images I sent some pictures to a friend because it made me laug
 
 ## Interview Recording URL Link
 
-I also wasn't able to get this part to work. Please email me at armandobecerra987@gmail.com for the video, sorry again!
+https://cdn.glitch.me/3c7c6bb2-403a-411d-acbb-3754203dbe0e/zoom_0.mp4?v=1648796914544
 
 
 ## License
