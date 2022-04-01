@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Welcome to the game! Repeat back the patterns by pressing buttons.
+    </p>
+   
+    <p>
+      I'm sorry for the images, I was having too much fun.
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img src="https://www.wallpapertip.com/wmimgs/229-2293166_transparent-hatsune-miku-png.png" alt="Famous pop idol from Japan" width="500" height="600"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img src="https://vignette.wikia.nocookie.net/dogelore/images/8/87/411.png/revision/latest?cb=20200330152532" alt="Dummy doggy" width="500" height="600"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img src="https://www.pinclipart.com/picdir/big/535-5356059_big-transparent-chungus-png-background-big-chungus-clipart.png" alt="Bugs, but thicker" width="500" height="600"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img src="https://th.bing.com/th/id/R.e7bb49c069f10ae104c4d9b9a57fb7e6?rik=9pgVHVo18G7RKA&pid=ImgRaw&r=0" alt="Very dapper astronaut" width="500" height="600"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img src="https://th.bing.com/th/id/R.bc0e4b1e9b16375edc40457de202419e?rik=rUShBGrRm%2f7eKA&pid=ImgRaw&r=0" alt="Haha funny face" width="500" height="600"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img src="https://cdn140.picsart.com/300036864500211.png?r1024x1024" alt="Funny sad cat" width="500" height="600"></button>
+    </div>
+    
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
